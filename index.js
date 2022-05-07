@@ -11,4 +11,4 @@ app.use(bodayParser.urlencoded({extended:true}))
 app.use(cors())
 app.use('/',sendQuoteMail)
 
-app.listen(process.env.PORT || 3001,console.log('connected to 3001'))
+app.listen(process.env.PORT || 3001,console.log('connected to 3001...'))
