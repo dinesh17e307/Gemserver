@@ -4,10 +4,10 @@
   "description": "serverside for germinate",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "server":"nodemon index.js",
-    "techietom":"npm start --prefix techietom",
-    "dev":"concurrently \"npm start server\" \"npm run techietom \"",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "techietom": "npm start --prefix techietom",
+    "dev": "concurrently \"npm start server\" \"npm run techietom \"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "germinate",
@@ -17,6 +17,7 @@
     "body-parser": "^1.20.0",
     "concurrently": "^7.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "email-templates": "^2.7.1",
     "express": "^4.18.0",
     "handlebars": "^4.7.7",
