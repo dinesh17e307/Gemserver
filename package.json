@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "techietom": "npm start --prefix techietom",
-    "dev": "concurrently \"npm start server\" \"npm run techietom \"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "author": "germinate",
   "license": "ISC",
